@@ -6,14 +6,23 @@
 - 2017
 - 2021
 - 2025(即將公布)
-# Top 10 Web Application Security Risks
+# Top 10 Web Application Security Risks(10 大 網站應用程式安全風險)
 - A01:2021-Broken Access Control
 - A02:2021-Cryptographic Failures(舊版:Sensitive Data Exposure)
-- A03:2021-Injection
-- A04:2021-Insecure Design(new)
-- A05:2021-Security Misconfiguration
-- A06:2021-Vulnerable and Outdated Components(2017舊版:Using Components with Known Vulnerabilities)
-- A07:2021-Identification and Authentication Failures(2017舊版:Broken Authentication)
-- A08:2021-Software and Data Integrity Failures(new)
-- A09:2021-Security Logging and Monitoring Failures(2017舊版:Insufficient Logging & Monitoring)
-- A10:2021-Server-Side Request Forgery(SSRF) 
+- A03:2021-Injection 各種類型的注入攻擊
+  - command Injection 指令注入
+  - Sql Injection SQL資料庫注入
+  - XSS Javascript Injection
+  - LDAP Injection
+  - No-SQl Injection No-SQL資料庫注入
+- A04:2021-Insecure Design(new)不安全的設計
+- A05:2021-Security Misconfiguration不安全的設定(配置)
+- A06:2021-Vulnerable and Outdated Components易受攻擊和過時的組件
+  - 2017舊版:Using Components with Known Vulnerabilities
+- A07:2021-Identification and Authentication Failures 失效的鑑別與識別
+  - 2017舊版:Broken Authentication
+- A08:2021-Software and Data Integrity Failures(new) 軟體與資料完整性的故障(失效)
+  - 涵蓋 2017 年的不安全反序列化
+- A09:2021-Security Logging and Monitoring Failures安全性記錄和監控故障(失效)
+  - 2017舊版:Insufficient Logging & Monitoring
+- A10:2021-Server-Side Request Forgery(SSRF) 伺服器端請求偽造
