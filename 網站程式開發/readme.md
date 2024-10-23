@@ -5,6 +5,7 @@
   - 參看簡報
   - 要重新啟動
 - Apache(PHP,...) == > XAMPP | APPserv
+  - 下載:https://www.apachefriends.org/download.html 
 - Nginx
 - Tomcat(JSP)
 # 網站應用程式開發-客戶端|Client-Side|前端
