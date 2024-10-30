@@ -26,3 +26,16 @@
 - A09:2021-Security Logging and Monitoring Failures安全性記錄和監控故障(失效)
   - 2017舊版:Insufficient Logging & Monitoring
 - A10:2021-Server-Side Request Forgery(SSRF) 伺服器端請求偽造
+
+## OWASP Top 10 API Security Risks 2023
+- https://owasp.org/API-Security/editions/2023/en/0x11-t10/
+- API1:2023 - Broken Object Level Authorization失效的物件層級授權機制
+- API2:2023 - Broken Authentication 失效的身份驗證
+- API3:2023 - Broken Object Property Level Authorization效的物件屬性等級授權
+- API4:2023 - Unrestricted Resource Consumption無限制的資源消耗
+- API5:2023 - Broken Function Level Authorization失效的功能等級授權
+- API6:2023 - Unrestricted Access to Sensitive Business Flows對敏感業務流程的存取欠缺限制
+- API7:2023 - Server Side Request Forgery(SSRF) 伺服器端請求偽造
+- API8:2023 - Security Misconfiguration 安全性設定錯誤
+- API9:2023 - Improper Inventory Management不當的資產管理
+- API10:2023 - Unsafe Consumption of APIsAPI 的不安全使用
